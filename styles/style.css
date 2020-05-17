@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+#cabecalho {
+    position: relative;
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: rgb(25, 37, 51);;
+    color: white;
+    height: 75px;
+    text-align: center;
+ }
+
+#manualCiencia {
+    position: absolute;
+    font-size: 22pt;
+    color: rgb(234, 90, 0);
+    width: 100%;
+    top: 10px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    padding: 5px;
+    margin-right: 60px;
+    top: 20px;
+    font-size: 11pt;
+}
+
+.col-sm-6 {
+    border: 1px solid brown;
+    height: 75px;
+}
+
+#direita {
+    text-align: right;
+}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
 /*---- CABEÇALHO ----*/
 #cabecalho {
@@ -16,7 +18,7 @@
     font-size: 22pt;
     color: rgb(234, 90, 0);
     width: 100%;
-    top: 10px;
+    top: 15px;
 }
 
 .menu {
@@ -49,6 +51,12 @@
         position: relative;
         top: 0px;
     }
+
+    figure.img-cabecalho-legenda {
+        width: 100vw;
+        margin-top: -1px;
+        margin-left: -15px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -64,20 +72,61 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    figure.img-cabecalho-legenda {
+        width: 575px;
+        margin-left: -15px;
+    }
+
+    figure.img-cabecalho-legenda figcaption {
+        top: 8px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    figure figcaption h1 {
+        font-size: 35pt;
+    }
+
+    figure figcaption h2 {
+        font-size: 12pt;
+    }
 }
 
-#img_cabecalho {
+.img-cabecalho-legenda {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    height: 190px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.img-cabecalho-legenda img {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.img-cabecalho-legenda figcaption {
     position: absolute;
     display: block;
-    background: url("/images/img_cabecalho.jpeg") no-repeat;
-    background-position: 50% 20%;
-    left: 0px;
-    height: 170px;
+    color: white;
+    top: 15px;
+    margin-left: 21%;
+}
+
+figcaption h1 {
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40pt;
+}
+
+figcaption h2 {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
 }
 
 /*---- Notícias em Exposição ----*/
-
-.col-sm-12 {
-    border: 1px solid red;
-    display: inline-block;
-}

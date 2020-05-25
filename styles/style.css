@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
+/*---- CABEÇALHO ----*/
 #cabecalho {
     position: relative;
     display: block;
     font-family: 'Titillium Web', sans-serif;
-    background-color: rgb(25, 37, 51);;
+    background-color: rgb(25, 37, 51);
     color: white;
     height: 75px;
     text-align: center;
@@ -63,4 +64,20 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+}
+
+#img_cabecalho {
+    position: absolute;
+    display: block;
+    background: url("/images/img_cabecalho.jpeg") no-repeat;
+    background-position: 50% 20%;
+    left: 0px;
+    height: 170px;
+}
+
+/*---- Notícias em Exposição ----*/
+
+.col-sm-12 {
+    border: 1px solid red;
+    display: inline-block;
 }
